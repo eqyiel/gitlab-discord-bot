@@ -4,8 +4,9 @@
   "repository": "https://github.com/jellysquid3/gitlab-discord-bot",
   "description": "A tiny GitLab bridge taking advantage of Discord Webhooks, written in Node.",
   "main": "src/app.js",
+  "bin": "bin/cli.js",
   "scripts": {
-    "start": "nodejs src/app.js",
+    "start": "./bin/cli.js",
     "lint": "./node_modules/.bin/eslint **.js"
   },
   "author": "JellySquid",
